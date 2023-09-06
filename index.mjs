@@ -17,3 +17,4 @@ client.commands.repeat = (reply, ...args) => {
 };
 client.commands.update = () => "No updates found"
 client.commands.botinfo = () => "Node.js on Linux. Uses ECMAScript modules? Yes, it's actually the framework for MsgRoom bots. Remember: the server only has 0.6 CPU so don't abuse"
+client.commands.bored = () => "That's okay! You can play games, chat on MsgRoom, and more!"
