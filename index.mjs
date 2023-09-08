@@ -21,6 +21,7 @@ client.commands.bored = () => "That's okay! You can play games, chat on MsgRoom,
 client.commands.sendGETtoBotWebsite = () => axios.get('https://kris47taskbot.kris477.repl.co')
   .then(response => {
     // Handle the response data here
+    client.sendMessage("Sended GET!")
   })
   .catch(error => {
     // Handle any errors here
