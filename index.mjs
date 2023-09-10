@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
   res.send('Welcome! This is Kris47TaskBot server. Thank you for visiting! The bot will stay online longer');
 });
 app.listen(3000, '0.0.0.0');
-const client = new Client("[!] Kris47TaskBot", [ "!" ]);
+const client = new Client("[&] Kris47TaskBot", [ "&" ]);
 await client.connect()
 client.commands.ping = () => "pong";
 client.commands.repeat = (reply, ...args) => {
