@@ -25,5 +25,5 @@ client.commands.faq = {
     };
 client.commands.bug = {
         description: "Found a bug or wanna suggest something? Execute it",
-        handler    : () => "Have a issue or bug? Use [this](https://github.com/Kris477/Kris47TaskBot/issues)",
+        handler    : () => "Have a issue or bug or suggestion? Use [this](https://github.com/Kris477/Kris47TaskBot/issues)",
     };
