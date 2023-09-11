@@ -23,3 +23,7 @@ client.commands.faq = {
         description: "Shows FAQ",
         handler    : () => "**What is SpamHook**? It's a bot by æ which logs stuff to a Discord server",
     };
+client.commands.bug = {
+        description: "Found a bug or wanna suggest something? Execute it",
+        handler    : () => "Have a issue or bug? Use [this](https://github.com/Kris477/Kris47TaskBot/issues)",
+    };
