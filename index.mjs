@@ -15,3 +15,7 @@ client.commands.ping = {
         description: "Replies with Pong!",
         handler    : () => "Pong!",
     };
+client.commands.msgroom = {
+        description: "This chat you're in",
+        handler    : () => "this chat.",
+    };
