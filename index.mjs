@@ -27,3 +27,16 @@ client.commands.bug = {
         description: "Found a bug or wanna suggest something? Execute it",
         handler    : () => "Have a issue or bug or suggestion? Use [this](https://github.com/Kris477/Kris47TaskBot/issues)",
     };
+const webhookUrl = 'https://discord.com/api/webhooks/1151182695926353981/YGnqORaUlptX7cGn_h2ga-zy4ZaNUqNvaZP9M3H8G_EICT2sLmrmYx92rL5VaSTqvRKL';
+
+const sendWebhookMessage = async (message) => {
+  try {
+    await axios.post(webhookUrl, { content: message });
+    console.log('Webhook message sent successfully');
+  } catch (error) {
+    console.error('Error sending webhook message:', error);
+  }
+};
+
+// Example usage
+sendWebhookMessage('Bot just went online!');
