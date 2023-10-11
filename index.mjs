@@ -19,8 +19,8 @@ client.commands.msgroom = {
         description: "This chat you're in",
         handler    : () => "this chat.",
     };
-client.commands.faq = {
-        description: "Shows FAQ",
+client.commands.funfact = {
+        description: "Shows fun facts",
         handler    : () => "**What is SpamHook**? It's a bot by æ which logs stuff to a Discord server",
     };
 client.commands.bug = {
